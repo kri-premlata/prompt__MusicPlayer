@@ -1,0 +1,202 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.container{
+    width: 80%;
+    height: 90%;
+    /* background-color: burlywood; */
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 2.5%;
+    background-image:
+    linear-gradient(rgba(82, 47, 234, 0.416), rgba(255, 255, 0, 0.598)),
+    radial-gradient(circle at 100%, #3333337a, #3333333c 50%, #eeeeee97 75%, #33333397 75%),
+    url(https://images.unsplash.com/photo-1681101505091-ef3c1e631ffd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mic{
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    animation: micc 2s linear 5;
+}
+@keyframes micc {
+    from{
+        top: 60%;
+    }to{
+        bottom: 0%;
+        rotate: 360deg;
+    }
+    
+}
+
+.box{
+    height: 40%;
+    width: 20%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-image: url(https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.play{
+    width: 40%;
+    height: 15%;
+    /* background-color: rgb(228, 50, 62); */
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    color: white;
+}
+.play i{
+    font-size: 25px;
+    position: absolute;
+    right: 40%;
+    bottom: 10%;
+
+}
+.play h1{
+    font-family:Helvetica;
+   position: absolute;
+   left: 5%;
+   top: 10%;
+}
+.play h4{
+    font-family: Helvetica;
+    font-size: 18px;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
+.like{
+    width: 15%;
+    height: 10%;
+    /* background-color:blueviolet; */
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.like i{
+    font-size: 45px;
+    color: white;
+    
+}
+.like i:hover{
+    cursor: pointer;
+    transition: 0.25s all;
+    transform: scale(0.8);
+}
+nav{
+    width: 70%;
+    height: 15%;
+    /* background-color:blue; */
+    position: absolute;
+    left: 25%;
+    top: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    color: white;
+}
+nav i{
+    font-size: 35px;
+}
+nav i:hover{
+    cursor: pointer;
+    transition: 0.25s all;
+    transform: scale(0.8);
+}
+.circle{
+    width: 7%;
+    height: 40%;
+    border-radius: 50%;
+    /* background-color: rgb(169, 10, 18); */
+    position: relative;
+}
+.circle i{
+    font-size: 47px;
+}
+.circle:hover{
+    cursor: pointer;
+    transition: 0.25s all;
+    transform: scale(0.8);
+}
+.slide{
+    width: 70%;
+    height: 5%;
+    /* background-color: chartreuse; */
+    position: absolute;
+    bottom: 46%;
+    left: 25%;
+}
+.slide h4{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    color: white;
+}
+.slide h5{
+    position: absolute;
+    right: 6%;
+    top: 20%;
+    font-size: 15px;
+    color: white;
+}
+#Range{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+}
+
+.sound{
+    width: 80%;
+    height: 10%;
+    /* background-color: chocolate; */
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+}
+.sound i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 4%;
+    top: 25%;
+}
+#volume{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    left: 8%;
+    top: 45%;
+    
+    
+}
+/* .lyrics{
+    width: 90%;
+    height: 33%;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+} */
